@@ -74,7 +74,7 @@ def delete_contact(id):
     print(id)
     if id:
         cur = db.connection.cursor()
-        cur.execute("DELETE FROM contacts where fullname = {0}".format(id))
+        cur.execute("DELETE FROM contacts where id = {0}".format(id))
         db.connection.commit()
         flash('Contacto ha sido eliminado satifactoriamente.')
         return redirect(url_for('Index'))
