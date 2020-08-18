@@ -1,5 +1,5 @@
 MYSQL_HOST = 'localhost'
-MYSQL_USER = 'frioss'
-MYSQL_PASSWORD = '<123>Frioss'
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = '123456789'
 MYSQL_DB = 'flask_contact'
 SECRET_KEY = 'mysecretkey'
